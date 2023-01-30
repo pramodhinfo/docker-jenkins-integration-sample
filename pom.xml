@@ -9,8 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 <build>
     <finalName>docker-jenkins-integration-sample</finalName>
-</build>
-  <plugins>
+         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -20,5 +19,7 @@
                 </configuration>
             </plugin>
    </plugins>
+</build>
+  
 
 </project>
